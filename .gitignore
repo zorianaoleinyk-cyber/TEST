@@ -1,0 +1,23 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Personal journal and local reports/evidence
+output/
+
+# Database dumps, backups, and local database files
+*.sql
+*.dump
+*.bak
+*.backup
+*.sqlite
+*.sqlite3
+*.db
+
+# Local database / Odoo data directories if someone binds them into the project
+postgres-data/
+pgdata/
+odoo-data/
+filestore/
+
